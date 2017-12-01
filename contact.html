@@ -149,9 +149,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<h4>Share</h4>
 						</div>
 						<div class="social">
-							<ul class="share-buttons">
-								<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faswey.000webhostapp.com%2Findex.html&t=%E9%98%BF%E6%B0%B4%E8%A1%9D%E6%B5%AA%E4%BF%B1%E6%A8%82%E9%83%A8" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="images/Facebook.svg" /></a></li>
-							</ul>
+							<div class="fb-share-button" data-href="https://lotzuting.github.io/aswey/index.html" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flotzuting.github.io%2Faswey%2Findex.html&amp;src=sdkpreparse">share</a></div>
 						</div>
 					</div>
 				</div>
@@ -219,5 +217,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
+
+
+    <!-- Facebook Share -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.11';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	
 </body>
 </html>
