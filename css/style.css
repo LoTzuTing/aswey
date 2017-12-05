@@ -2391,9 +2391,10 @@ h3.w3layouts-title img {
     font-size: 27px;
     color: #555555;
     display: inline;
+    font-weight:bold;
 }
 h4.price-clr {
-    color: #00bb83;
+    color: #2ebaef;
 }
 /*-------*/
 #myList li{ 
