@@ -73,12 +73,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<li><a href="jppage.html" class="active"><img src="images/jp.png" alt="" title="japanese" /> 日本語</a></li>
 							</ul>
 						</div>
-					<div class="w3ls-bnr-icons social-icon navbar-right">
-						<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
-							<a href="https://www.facebook.com/%E9%98%BF%E6%B0%B4%E8%A1%9D%E6%B5%AA%E5%BA%97-TAIWAN-SP-SURF-289132687776907/" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
-							<a href="#" class="social-button youtube"><i class="fa fa-youtube"></i></a> 
-							<a href="#" class="social-button instagram"><i class="fa fa-instagram"></i></a> 
-					</div> 
+						<div class="w3ls-bnr-icons social-icon navbar-right">
+							<!--<a href="https://twitter.com/?lang=zh-tw" target="_blank" class="social-button twitter"><i class="fa fa-twitter"></i></a> -->
+							<a href="https://www.facebook.com/%E9%98%BF%E6%B0%B4%E8%A1%9D%E6%B5%AA%E5%BA%97-TAIWAN-SP-SURF-289132687776907/" target="_blank" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
+							<a href="https://www.youtube.com/user/aswey2003" target="_blank" class="social-button youtube"><i class="fa fa-youtube"></i></a> 
+							<!--<a href="#" target="_blank" class="social-button instagram"><i class="fa fa-instagram"></i></a> -->
+						</div> 
 						<div class="clearfix"> </div>  
 				</div>
 			</div>	
@@ -131,7 +131,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	<!-- //contact -->
-	<!-- footer -->
+<!-- footer -->
 	<div class="w3-agile-footer">
 		<div class="container">
 			<div class="footer-grids">
@@ -154,9 +154,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<h4>Share</h4>
 						</div>
 						<div class="social">
-							<ul class="share-buttons">
-								<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faswey.000webhostapp.com%2Findex.html&t=%E9%98%BF%E6%B0%B4%E8%A1%9D%E6%B5%AA%E4%BF%B1%E6%A8%82%E9%83%A8" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="images/Facebook.svg" /></a></li>
-							</ul>
+							<div class="fb-share-button" data-href="https://lotzuting.github.io/aswey/index.html" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flotzuting.github.io%2Faswey%2Findex.html&amp;src=sdkpreparse">share</a></div>
+						</div>
+						<div class="social">
+							<div class="line-it-button" data-lang="zh_Hant" data-type="share-d" data-url="https://lotzuting.github.io/aswey/index.html" style="display: none;"></div>
 						</div>
 					</div>
 				</div>
@@ -167,10 +168,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="social">
 							<ul>
-								<li><a href="https://www.facebook.com/%E9%98%BF%E6%B0%B4%E8%A1%9D%E6%B5%AA%E5%BA%97-TAIWAN-SP-SURF-289132687776907/"><i class="fa fa-facebook fa-2x"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-								<li><a href="#"><i class="fa fa-rss fa-2x"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+								<li><a href="https://www.facebook.com/%E9%98%BF%E6%B0%B4%E8%A1%9D%E6%B5%AA%E5%BA%97-TAIWAN-SP-SURF-289132687776907/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+								<li><a href="https://www.youtube.com/user/aswey2003" target="_blank" class="social-button youtube"><i class="fa fa-youtube fa-2x"></i></a></li>
+								<!--<li><a href="#"><i class="fa fa-rss fa-2x"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>-->
 							</ul>
 						</div>
 					</div>
@@ -224,5 +225,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
+
+
+    <!-- Facebook Share -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.11';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- Line Share -->
+	<script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+
+
 </body>
 </html>

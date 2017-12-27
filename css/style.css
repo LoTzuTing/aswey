@@ -585,7 +585,7 @@ ul.agileits_social_list {
     line-height: 40px;
 	background: #3b5998;
 }
-.social ul li a i.fa.fa-twitter{
+.social ul li a i.fa.fa-youtube{
     height: 40px;
     width: 40px;
     background: #2ebaef;
@@ -602,11 +602,11 @@ ul.agileits_social_list {
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
-.social ul li a i.fa.fa-twitter:hover{
+.social ul li a i.fa.fa-youtube:hover{
     height: 40px;
     width: 40px;
     line-height: 40px;
-	background: #1da1f2;
+	background: #e81b1b;
 }
 .social ul li a i.fa.fa-rss{
     height: 40px;
