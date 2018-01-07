@@ -164,8 +164,8 @@ ul.nav.navbar {
 }
 .w3ls-banner-1{ 
 	/*background:url(../images/banner-2.jpg)no-repeat center;*/
-    /*background:url(../images/export.gif)no-repeat center;
-    background:url(../images/123.gif)no-repeat center;*/
+    /*background:url(../images/export.gif)no-repeat center;*/
+    background:url(../images/abanner.jpg)no-repeat center;
 	-webkit-background-size:cover;
 	-moz-background-size:cover; 
 	background-size:cover;
@@ -2565,7 +2565,7 @@ div#showLess:after {
 
 .video iframe{
   position: absolute;
-  background: #000;
+  background: #fff;
   top: 0;
   left: 0;
   bottom: 0;
