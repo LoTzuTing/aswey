@@ -255,8 +255,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<figure><img src="images/team/t3.jpg" alt=" " class="img-responsive" /></figure>
 					</div>
 					<div class="team-tt">
-						<h4>Catharine</h4>
-						<p>Lorem</p>
+						<h4>菈寇斯</h4>
+						<p>Aki</p>
 					</div>
 				</div>
 				<div class="col-md-3 w3_agile_team_grid">
@@ -291,15 +291,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 footer-grid">
+				<div class="col-md-3 footer-grid">
 					<div class="foot-top-w3">
 						<div class="footer-grid-heading">
 							<h4>Sponsor</h4>
 						</div>
 						<div class="social">
 							<ul>
-								<li><img src="images/rlm_logo_w.png" alt="rlm" title="rlm" /></li>
-								<li><a href="http://www.streamtrail.net" target="_blank"><img src="images/logo_stream_trall_f.png" alt="st" title="st" /></a></li>
+								<li><a href="http://www.streamtrail.net" target="_blank"><img src="images/logo_stream_trall.png" alt="st" title="st" /></a></li>
 							</ul>
 						</div>
 						<div class="social">
@@ -322,7 +321,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 					</div>
 				</div>
-				<div class="col-md-2 footer-grid">
+				<div class="col-md-3 footer-grid">
 					<div class="foot-top-w3">
 						<div class="footer-grid-heading">
 							<h4>Follow Us</h4>
@@ -334,6 +333,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<!--<li><a href="#"><i class="fa fa-rss fa-2x"></i></a></li>
 								<li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>-->
 							</ul>
+						</div>
+						<div class="social">
+							<div class="line-it-button" data-lang="zh_Hant" data-type="friend" data-lineid="0939960303" style="display: none;"></div>
 						</div>
 					</div>
 				</div>
@@ -488,7 +490,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
 
-    <!-- Facebook Share -->
+    
+	<script>
+	  window.fbAsyncInit = function() {
+	    FB.init({
+	      appId            : 'your-app-id',
+	      autoLogAppEvents : true,
+	      xfbml            : true,
+	      version          : 'v2.11'
+	    });
+	  };
+
+	  (function(d, s, id){
+	     var js, fjs = d.getElementsByTagName(s)[0];
+	     if (d.getElementById(id)) {return;}
+	     js = d.createElement(s); js.id = id;
+	     js.src = "https://connect.facebook.net/en_US/sdk.js";
+	     fjs.parentNode.insertBefore(js, fjs);
+	   }(document, 'script', 'facebook-jssdk'));
+	</script>
+	<!-- Facebook Share -->
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
