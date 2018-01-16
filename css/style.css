@@ -308,10 +308,32 @@ img.img-responsive {
     background-size: cover;
     min-height: 447px;
 }
+.welcome-right-c2 {
+    background: url(../images/clothing/c3.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 447px;
+}
+.welcome-right-c3 {
+    background: url(../images/clothing/c5.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 447px;
+}
+.welcome-right-c4 {
+    background: url(../images/clothing/c7.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 447px;
+}
 .welcome-left-top {
     border-left: 1px solid #000;
     padding-left: 35px;
 }
+
 .welcome-bottom-left{
     background: url(../images/gallery/g5.jpg)no-repeat center;
     -webkit-background-size: cover;
@@ -335,6 +357,27 @@ img.img-responsive {
 }
 .welcome-bottom-left-c1{
     background: url(../images/clothing/c2.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 447px;
+}
+.welcome-bottom-left-c2{
+    background: url(../images/clothing/c4.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 447px;
+}
+.welcome-bottom-left-c3{
+    background: url(../images/clothing/c6.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 447px;
+}
+.welcome-bottom-left-c4{
+    background: url(../images/clothing/c8.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -2574,7 +2617,7 @@ div#showLess:after {
 }
 .main-menu {
     padding: 5em 0;
-    background:url(../images/food/f2.jpg) no-repeat center fixed;
+    background:url(../images/food/f_background.jpg) no-repeat center fixed;
     background-size:cover;
     min-height:564px;
 }
